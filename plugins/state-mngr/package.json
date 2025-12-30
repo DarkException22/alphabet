@@ -1,0 +1,31 @@
+{
+  "name": "@alphabet/state",
+  "version": "2.0.0",
+  "description": "Official state management plugin for Alphabet Framework",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": ["state", "management", "alphabet", "plugin", "reactive"],
+  "author": "Alphabet Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "alphabet-core": "^2.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "typescript": "^5.0.0"
+  }
+}

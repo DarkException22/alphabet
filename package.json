@@ -1,0 +1,62 @@
+{
+  "name": "alphabet",
+  "version": "1.0.0-alpha.1",
+  "description": "A lightweight, simple, and complete JavaScript framework",
+  "main": "dist/alphabet.js",
+  "module": "dist/alphabet.esm.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "npm run build:ts && npm run build:bundle && npm run build:minify",
+    "build:ts": "tsc",
+    "build:bundle": "rollup -c",
+    "build:minify": "esbuild dist/alphabet.js --minify --outfile=dist/alphabet.min.js",
+    "build:great": "node scripts/build-great.js",
+    "dev": "tsc --watch",
+    "test": "npm run test:unit && npm run test:integration && npm run test:benchmark",
+    "test:unit": "jest --config jest.unit.config.js",
+    "test:integration": "jest --config jest.integration.config.js",
+    "test:benchmark": "node tests/benchmark/index.js",
+    "test:stress": "node tests/stress/index.js",
+    "docs": "node scripts/build-docs.js",
+    "serve:examples": "http-server examples -p 8080",
+    "serve:docs": "http-server docs -p 3000"
+  },
+  "keywords": [
+    "framework",
+    "reactive",
+    "ssr",
+    "spa",
+    "lightweight"
+  ],
+  "author": "OverLab Group",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/jest": "^29.0.0",
+    "chalk": "^4.0.0",
+    "esbuild": "^0.19.0",
+    "http-server": "^14.0.0",
+    "jest": "^29.0.0",
+    "ora": "^6.0.0",
+    "rollup": "^4.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "yaml": "^2.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/alphabet.esm.js",
+      "require": "./dist/alphabet.js"
+    },
+    "./great": {
+      "import": "./dist/great.esm.js",
+      "require": "./dist/great.js"
+    }
+  },
+  "repository": "git+https://github.com/OverLab-Group/alphabet.git",
+  "bugs": {
+    "url": "https://github.com/OverLab-Group/alphabet/issues"
+  },
+  "homepage": "https://github.com/OverLab-Group/alphabet#readme",
+  "private": false
+}
